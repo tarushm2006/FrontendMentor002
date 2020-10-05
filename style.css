@@ -1,0 +1,152 @@
+body{
+    text-align:center;
+    font-family:"inter", sans-serif;
+    background-image: url("pattern-bg.svg"), url("pattern-quotes.svg"), url("pattern-curve.svg");
+    background-repeat: no-repeat ;
+    background-size: 100%, 20%;
+    background-position: 0px 40px, 165px 450px, 0px 675px;
+}
+.img{
+    width:75%;
+    border:1px solid white;
+    box-shadow:1px 1px 20px 1px grey;
+}
+.john{
+    position:relative ;
+    top:70px;
+    color: #202046;
+}
+.tanya{
+    position:relative ;
+    top:70px;
+    color: #202046;
+    display:block;
+}
+.attribution{
+    position:absolute;
+    bottom:5px;
+}
+.position{
+    opacity:50%;
+}
+.name{
+    font-weight:bold;
+    opacity:100%;
+}
+.navigator{
+    width:150px;
+    height:50px;
+    background:#fffff0;
+    position:absolute;
+    border-radius:40px;
+    left:130px;
+    top:340px;
+    z-index:2;
+}
+.navigator img{
+    width:20px;
+}
+.pre{
+    position:relative;
+    right:35px;
+    top:8px;
+}
+.next{
+    position:relative;
+    top:7px;
+    left:35px;
+}
+#johna{
+    
+    position:relative ;
+    top:90px;
+    display:none;
+}
+#johntext{
+    position:relative ;
+    display:none;
+}
+
+.tanyaa{
+    position:relative;
+    top:50px;
+}
+@media screen and(min-width:375px){
+   .img{
+       Display: none;
+   } 
+#johna{
+Display: none;
+}
+}
+@media screen and (min-width: 1024px){
+    #tanyaimg{
+        width: 350px;
+        position: relative;
+        left: 300px;
+    }
+    body{
+        background-size: 40%, 10%, 60%;
+        background-position: 700px 60px, 200px 150px,0px 430px ;
+    }
+    .navigator{
+        position: relative;
+        left: 800px;
+        top: 450px;
+        width: 100px;
+    }
+    .navigator img{
+        width: 15px;
+    }
+    .pre{
+        position: relative;
+    }
+    .next{
+        position: absolute;
+        left: 70px;
+        top: 10px;
+    }
+    #tanyatext{
+        position: relative;
+        bottom: 400px;
+        right: 250px;
+        font-size: 35px;
+    }
+    .tanyaa{
+        position: absolute;
+        top: 325px;
+        left: 275px
+    }
+    .position{
+        position: relative;
+        left: 110px;
+        bottom: 20px;
+    }
+    #johnimg{
+        width: 350px;
+        position: absolute;
+        left: 792px;
+        bottom: 110px;
+        display: none;
+    }
+    #johntext{
+        position: relative;
+        bottom: 200px;
+        right: 250px;
+        font-size: 32px;
+        display: none;
+    }
+    #johna{
+        position: absolute;
+        left: 260px;
+        top:200px;
+    }
+    #johna .name{
+        position: relative;
+        right: 25px;
+    }
+    #johna .position{
+        position: relative;
+        right: 50px;
+    }
+}
